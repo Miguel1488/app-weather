@@ -53,8 +53,8 @@ body {
 }
 
 .cardImg {
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
   padding: 0;
 }
 
@@ -96,15 +96,6 @@ body {
 
 }
 
-/*.button {
-  border-radius: 7%;
-  width: 200px;
-  height: 50px;
-
-  font-size: 25px;
-  cursor: pointer;
-
-}*/
 
 button::before {
   content: '';
