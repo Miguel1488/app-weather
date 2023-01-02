@@ -23,8 +23,8 @@ body {
 }
 
 .card {
-  width: 750px;
-  height: 750px;
+  width: 650px;
+  height: 650px;
   background-color: rgba(44, 160, 67, 0.7);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
   border-radius: 50px;
@@ -35,9 +35,9 @@ body {
 
 
 .title {
-  font-size: 60px;
+  font-size: 40px;
   color: rgb(239, 213, 213);
-  padding-top: 60px;
+  
   font-family: sans-serif;
 }
 
