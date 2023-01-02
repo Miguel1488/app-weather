@@ -83,6 +83,7 @@ function App() {
           <li>Pressure: {weather.main?.pressure}mb</li>
 
         </div>
+        
         <ul className='weather'>
           {isFahrenheit
             ? fahrenheit : celsius}{""}
