@@ -90,7 +90,7 @@ function App() {
         </ul>
 
 
-        <button className='button' onClick={changeUnits}>holaDegrees °F/°C</button>
+        <button className='button' onClick={changeUnits}>Degrees °F/°C</button>
       </div>
     </div>
   )
