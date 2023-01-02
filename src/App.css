@@ -16,13 +16,13 @@ body {
 
 }
 
-.App{
+.App {
   border-radius: 50px;
 }
 
 .card {
-  width: 650px;
-  height: 650px;
+  width: 450px;
+  height: 450px;
   background-color: rgba(44, 160, 67, 0.7);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
   border-radius: 50px;
@@ -35,11 +35,11 @@ body {
 .title {
   font-size: 40px;
   color: rgb(239, 213, 213);
-  
+
   font-family: sans-serif;
 }
 
-.information{
+.information {
   color: rgb(239, 213, 213);
   font-family: sans-serif;
 }
@@ -121,7 +121,7 @@ button::before {
   z-index: -1;
   border: 7%;
   transform: translateY(5px);
-  
+
 }
 
 
