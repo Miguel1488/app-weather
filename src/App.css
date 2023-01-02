@@ -1,0 +1,139 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-position: center;
+  background-image: url(./assets/img/naturaleza1.jpg);
+  background-size: cover;
+
+
+}
+
+.App{
+  border-radius: 50px;
+}
+
+.card {
+  width: 750px;
+  height: 750px;
+  background-color: rgba(44, 160, 67, 0.7);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+  border-radius: 50px;
+  padding: 10px;
+
+
+}
+
+
+.title {
+  font-size: 60px;
+  color: rgb(239, 213, 213);
+  padding-top: 60px;
+  font-family: sans-serif;
+}
+
+.information{
+  color: rgb(239, 213, 213);
+  font-family: sans-serif;
+}
+
+.cardWeather {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.cardImg {
+  width: 230px;
+  height: 230px;
+  padding: 0;
+}
+
+
+
+.button {
+  width: 130px;
+  height: 40px;
+  padding: 0px;
+  background-color: rgba(228, 207, 98, 0.76);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+  color: aliceblue;
+}
+
+.date {
+  color: aqua;
+}
+
+.weather {
+  font-size: 30px;
+  color: aliceblue;
+  list-style: none;
+
+}
+
+
+
+
+
+.button {
+  border-radius: 7%;
+  position: relative;
+  border: none;
+  outline: none;
+  width: 170px;
+  height: 55px;
+  background-color: rgb(225, 156, 28);
+  color: aliceblue;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: sans-serif;
+  padding: 0;
+
+}
+
+/*.button {
+  border-radius: 7%;
+  width: 200px;
+  height: 50px;
+
+  font-size: 25px;
+  cursor: pointer;
+
+}*/
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #efc333;
+  z-index: -1;
+  border: 7%;
+  transform: translateY(5px);
+  
+}
+
+
+button:active {
+  transform: translateY(5px);
+
+}
+
+
+button:active::before {
+  transform: translateY(0);
+
+}
