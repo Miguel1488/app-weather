@@ -12,7 +12,7 @@
 }
 
 body {
-  margin: 0;
+
   display: flex;
   place-items: center;
   background-position: center;
@@ -61,14 +61,13 @@ body {
 .cardImg {
   width: 250px;
   height: 250px;
-  padding: 0;
+  
 }
 
 
 .button {
   width: 130px;
   height: 40px;
-  padding: 0px;
   background-color: rgba(228, 207, 98, 0.76);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
   color: aliceblue;
