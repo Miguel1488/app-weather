@@ -116,18 +116,7 @@ button::before {
   background-color: #efc333;
   z-index: -1;
   border: 7%;
-  transform: translateY(0);
 
 }
 
 
-button:active {
-  transform: translateY(0);
-
-}
-
-
-button:active::before {
-  transform: translateY(0);
-
-}
