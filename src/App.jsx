@@ -73,7 +73,7 @@ function App() {
 
         <h2 className='information'>City {weather?.name}, {weather.sys?.country}</h2>
 
-        <img className='cardImg' src={`http://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`} alt="" />
+        <img className='cardImg' src={`https://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`} alt="" />
 
 
 
